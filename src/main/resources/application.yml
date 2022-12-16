@@ -1,0 +1,19 @@
+application:
+  title: Squad - management of users and teams
+  version: ${VERSION:0.0.1-SNAPSHOT}
+
+server:
+  port: ${BACKEND_PORT:8082}
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:mydb?currentSchema=squad
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: validate
+  h2:
+    console.enabled: true
