@@ -25,8 +25,8 @@
 
 # Approach
 
- A abordagem utilizada para desenvolver o teste foi de microsserviços com separação de responsabilidades. 
- Para isso, foram criados dois controllers, RoleController e MemberRoleController.
+The approach used to develop the test was microservices with separation of responsibilities. 
+For this, two controllers were created, RoleController and MemberRoleController.
 
 ### To run the application
  ```bash
